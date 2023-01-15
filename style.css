@@ -1,0 +1,88 @@
+/* headers apo to bio */
+h1 {
+    text-align: center;
+}
+/* headers gia ta erga */
+h2{
+    text-align: right ;
+}
+
+/* style ta input fields tou login form */
+input[type="text"],
+input[type="password"] {
+    display: block;
+    margin: 2 auto;
+    width: 250px;
+}
+
+/* orizw grid */
+.grid {
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: min-content auto;
+}
+
+/* den vgainei tipota ektos grid/body */
+body {
+    overflow: hidden
+}
+
+/* mobile/tablet friendly */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+}
+
+header,
+nav,
+aside,
+main,
+footer {
+    border: 1px solid black;
+    background-color: #bae8e8;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 1px;
+}
+
+nav {
+    border-bottom: 1px;
+}
+
+aside {
+    border-right: 1px solid black;
+    float: left;
+    width: 30%;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    border-top: 1px;
+}
+
+aside,
+main {
+    height: calc(100vh - 60px)
+}
+
+.float {
+    float: auto;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+* {
+    /*margin = separate the block from things outside it */
+    margin: 0;
+    /* padding = move the contents away from the edges of the block*/
+    padding: 0;
+}

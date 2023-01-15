@@ -1,0 +1,24 @@
+{
+    "books": [
+        {
+            "title": "Η Γυφτοπούλα Μέρος Ι(1884)",
+            "year": "1867",
+            "link": "https://www.papadiamantis.org/works/57-novel/78-01-03-h-gyftopoula-i-1884"
+        },
+        {
+            "title": "Η Γυφτοπούλα Μέρος ΙΙ(1884)",
+            "year": "1867",
+            "link": "https://www.papadiamantis.org/works/57-novel/77-01-03-h-gyftopoula-ii-1884"
+        },
+        {
+            "title": "Οι Έμποροι των Εθνών (1883)",
+            "year": "1867",
+            "link": "https://www.papadiamantis.org/works/57-novel/74-01-02-oi-emporoi-twn-e8nwn-1882"
+        },
+        {
+            "title": "Η Μετανάστις (1880)",
+            "year": "1867",
+            "link": "https://www.papadiamantis.org/works/57-novel/75-01-01-h-metanastis-1879"
+        }
+    ]
+}
