@@ -5,7 +5,7 @@ function checkCredentials() { //elegxos twn stoixeiwn tou login form
     alert("Επιτυχής σύνδεση");
     document.querySelector('#set6').style.visibility = 'visible'; //emfanise tis upoloipes epiloges
     document.querySelector('#loginform').style.visibility = 'hidden';
-    document.querySelector('#buttonlogin').style.visibility = 'hidden';
+    document.querySelector('#set5').style.visibility = 'hidden';
 
   } else {
     alert("Λάθος στοιχεία. Δοκίμασε ξανά");
@@ -16,7 +16,7 @@ function logout() { //function gia logout otan patithei to button
   document.getElementById("pass").value = "";
   alert("Έκανες αποσύνδεση");
   document.querySelector('#loginform').style.visibility = 'visible';
-  document.querySelector('#buttonlogin').style.visibility = 'visible';
+  document.querySelector('#set5').style.visibility = 'visible';
   document.querySelector('#set6').style.visibility = 'hidden';
 
 }
